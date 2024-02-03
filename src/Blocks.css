@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.wrapper {
+  position: relative;
+  width: 350px;
+  height: 346px;
+  margin-top: 15px;
+}
+
+.wrapper > svg {
+  position: absolute;
+  top: -1%; /* Середина высоты .wrapper */
+  left: 15%; /* Середина ширины .wrapper */
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Чтобы .svg оказался над second_wrapper */
+}
+
+.second_wrapper {
+  background-color: #FFF;
+  width: 350px;
+  height: 322px;
+  position: relative; /* Необходимо для позиционирования внутри .wrapper */
+  border-radius: 15px;
+}
+
+h2, h4, a {
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+  padding-top: 80px;
+  color: #13183F;
+}
+
+h4 {
+  padding-top: 24px;
+  color: #83869A;
+  font-weight: 400;
+  width: 286px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+a {
+  position: absolute;
+  bottom: 0;
+  color: #F74780;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 40px;
+}

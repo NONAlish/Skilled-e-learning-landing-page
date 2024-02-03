@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+  overflow-x: hidden;
+}
+
+.container > * {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 300px 0 300px;
+}
+
+header button{
+  width: 167px;
+  height: 56px;
+  background-color: #13183F;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header button:hover{
+  background-color: #666CA3;
+}
+
+main{
+  display: flex;
+  margin: 100px 0 0 300px;
+}
+
+main h1{
+  max-width: 457px;
+  color: #13183F;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main img{
+  position: absolute;
+  right: -15%; 
+  top: -15%;
+}
+
+main h3{
+  color: #83869A;
+  font-size: 22px;
+  max-width: 445px;
+  opacity: 0.7;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main button{
+  width: 167px;
+  height: 63px;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main button:hover{
+  opacity: 0.8;
+}
+
+
+.wrapper_blocks {
+  margin-top: 250px; /* Ваш отступ сверху */
+  max-width: 100%; /* Максимальная ширина блока */
+  width: 100%; /* Ширина занимает 100% от максимальной ширины, если экран меньше */
+  background: linear-gradient(#FFF, rgba(191, 225, 255, 0.5));
+}
+
+
+.first_block{
+  width: 350px;
+  height: 322px;
+  background: linear-gradient(#F02AA6, #FF6F48);
+  border-radius: 15px;
+
+}
+
+.first_block > h2{
+  width: 286px;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 60px;
+  color: #FFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.all_blocks{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1400px;
+  padding-bottom: 100px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #13183F;
+  height: 120px;
+}
+
+footer button{
+  width: 167px;
+  height: 63px;
+  background: linear-gradient(#4851FF, #F02AA6);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+footer button:hover{
+  opacity: 0.8;
+}
+
+footer svg{
+  margin-left: 300px;
+}
+
+.footer_btn{
+  background-color: #fff;
+  width: 167px;
+  margin-right: 300px;
+  border-radius: 40px;
+}
